@@ -1,0 +1,60 @@
+/* TOP OF STYLE SHEET - START HERE */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(236, 133, 176);
+  font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+  color: #e84393;
+  text-align: center;
+  margin: 20px 0;
+}
+h2 {
+  color: #5a2a4a;
+  text-align: center;
+  margin: 20px 0;
+}
+p{
+  color: #5a2a4a;
+  font-size: 18px;
+  margin: 10px 0;
+}
+/* This makes pink full width */
+nav {
+  background-color: #f8d7e8;
+  width: 100%;
+  padding: 18px 0;
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+
+/* This removes blue and stops About Us breaking */
+nav a {
+  color: #5a2a4a !important;
+  text-decoration: none !important;
+  font-weight: bold;
+  margin: 0 15px;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #ff006e !important;
+}
+
+/* Your content below */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Mobile - makes nav stack nicely on phone */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+}
